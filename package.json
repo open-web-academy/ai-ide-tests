@@ -9,16 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.3",
+    "@monaco-editor/react": "^4.7.0",
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@types/three": "^0.174.0",
+    "@uiw/codemirror-theme-material": "^4.23.10",
+    "@uiw/react-codemirror": "^4.23.10",
+    "konva": "^9.3.19",
+    "ml5": "^0.12.2",
+    "next": "15.2.2",
+    "p5": "^1.11.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.2"
+    "react-konva": "^19.0.3",
+    "three": "^0.174.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
